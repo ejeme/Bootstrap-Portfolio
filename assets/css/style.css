@@ -1,0 +1,159 @@
+body {
+background-color: rgb(250, 248, 248);
+margin: 0;
+padding: 0;
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-size: 18px;
+Height: 100%;
+}
+
+h1 {
+    width:100%;
+    color: black;
+    background-color: #5addb6;
+    border-bottom: 5px solid black;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;   
+    font-size: 28px; 
+    margin-bottom:40px;
+
+ }
+
+ul {
+    display: inline-block;
+    font-size:20px;
+    text-align: justify;
+
+}
+
+ul:after {
+    content: '';
+    display:inline-block;
+    width:50px;
+    
+    }
+
+ul:before {
+    content: '';
+    display: block;
+    margin-top: -30px;
+    }
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+
+}
+
+
+h2 {
+    font-size: 24px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    height: 960px;
+
+}
+
+#main-bio,
+#bio-image,
+#contact-info
+{
+    float: left;
+}
+
+#main-bio {
+    width: 650px;
+    margin-top:40px; 
+    margin-right:20px;
+    background-color: #ecf3e9;  
+
+
+}
+#contact-info {
+    width: 270px;
+    background-color: #5addb6;
+    margin-top:40px;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: center;
+    line-height: 200%;
+    
+}
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    
+}
+
+a.email {
+color:blue;
+text-decoration:underline;
+}
+
+a.facebook {
+color:blue;
+font-weight: bold   
+}
+
+a.instagram
+{
+color:blue;
+font-weight: bold   
+}
+
+a.linkedin {
+color:green;
+font-weight: bold   
+}
+
+#github-icon,
+#facebook-icon,
+#instagram-icon,
+#linkedin-icon {
+    width:40px;
+    margin: 5px;
+    margin-left: 16px;
+    float: center;
+}
+
+.clearfix::after{
+content:"";
+display:block;
+clear:both;
+}
+
+footer {
+    width: 100%;
+    background: #5addb6;
+    float: left;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-top: 5px solid black;
+    text-align:center;
+    position: fixed;
+    bottom:0px;
+    }
+
+  a:hover {
+    color: red;
+  }
+  
+#github-icon:hover,
+#facebook-icon:hover,
+#instagram-icon:hover,
+#linkedin-icon:hover { 
+    width: 17%;
+}
+
